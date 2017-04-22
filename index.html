@@ -10,19 +10,23 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	
-	<title>Electronics Shoppe Stores - Bootstrap Template</title>
+	<title>LiliSimões Suplementos</title>
 	
 	<!-- Bootstrap Core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	
 	<!-- Google Web Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+
 	<!-- CSS Files -->
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="css/owl.carousel.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/custom.css">
 	
 	<!--[if lt IE 9]>
 		<script src="js/ie8-responsive-file-warning.js"></script>
@@ -45,10 +49,12 @@
 </head>
 <body>
 <!-- Top Bar Starts -->
-	<div class="top-bar text-center text-uppercase">
+	<div class="top-bar text-center">
 	<!-- Nested Container Starts -->
 		<div class="container">
-			<i class="fa fa-truck"></i> <span>Free Shipping</span> on order over $199. This offer is valid on all our store items.
+			<i class="fa fa-envelope tab"></i> <span>contato@lilisimoes.com.br</span>
+			<i class="fa fa-whatsapp tab"></i> <span>(11) 94762-4249</span>
+			<i class="fa fa-drivers-license tab"></i> <span>depósito: Itaú ag: 0123 cc: 98765-4</span>
 		</div>
 	<!-- Nested Container Ends -->
 	</div>
@@ -62,58 +68,29 @@
 			<!-- Nested Row Starts -->
 				<div class="row">
 				<!-- Currency & Languages Starts -->
-					<div class="col-sm-3 col-xs-12">
-						<div class="pull-left">
-						<!-- Languages Starts -->
-							<div class="btn-group">
-								<button class="btn btn-link dropdown-toggle  text-uppercase" data-toggle="dropdown">
-									Eng
-									<i class="fa fa-caret-down"></i>
-								</button>
-								<ul class="pull-left dropdown-menu">
-									<li>
-										<a tabindex="-1" href="#">English</a>
-									</li>
-									<li>
-										<a tabindex="-1" href="#">French</a>
-									</li>
-								</ul>
-							</div>
-						<!-- Languages Ends -->
-						<!-- Currency Starts -->
-							<div class="btn-group">
-								<button class="btn btn-link dropdown-toggle text-uppercase" data-toggle="dropdown">
-									$
-									<i class="fa fa-caret-down"></i>
-								</button>
-								<ul class="pull-left dropdown-menu">
-									<li><a tabindex="-1" href="#">Pound </a></li>
-									<li><a tabindex="-1" href="#">US Dollar</a></li>
-									<li><a tabindex="-1" href="#">Euro</a></li>
-								</ul>
-							</div>
-						<!-- Currency Ends -->
-						</div>
+					<div id="logo-home" class="col-sm-3 col-xs-12">
+							<h1>LiliSimões</h1>	
+							<h6>S  U  P  L  E  M  E  N  T  O  S</h6>	
 					</div>
 				<!-- Currency & Languages Ends -->
 				<!-- Header Links Starts -->
-					<div class="col-sm-6 col-xs-12">
+					<div class="col-sm-6 col-xs-12 menu-principal">
 						<ul class="list-unstyled list-inline header-links text-center">
 							<li><a href="#">Home</a></li>
-							<li><a href="#">Wish List(0)</a></li>
-							<li><a href="#">My Account</a></li>
-							<li><a href="#">Checkout</a></li>
-							<li><a href="#">Login</a></li>
+							<li><a href="#">Pedidos (0)</a></li>
+							<li><a href="#">Minha Conta</a></li>
+							<li><a href="#">Novo Cliente</a></li>
+							<li><a href="#">Entrar</a></li>
 						</ul>
 					</div>
 				<!-- Header Links Ends -->
 				<!-- Cart Starts -->
-					<div class="col-sm-3 col-xs-12">
+					<div class="col-sm-3 col-xs-12 menu-principal">
 						<div id="cart" class="btn-group btn-block">
 							<button type="button" data-toggle="dropdown" class="btn btn-block btn-lg dropdown-toggle text-uppercase">
 								<i class="fa fa-shopping-cart"></i>
-								<strong>Shopping Cart</strong> 
-								<span id="cart-total">2 Items</span>
+								<strong>Meu Carrinho</strong> 
+								<span id="cart-total">3 Itens</span>
 								<i class="fa fa-angle-down"></i>
 							</button>
 							<ul class="dropdown-menu pull-right">
@@ -122,16 +99,17 @@
 										<tr>
 											<td class="text-center">
 												<a href="product.html">
-													<img src="images/product-images/hcart-thumb1.jpg" alt="image" title="image" class="img-thumbnail img-responsive" />
+													<!--> hcart-thumb1 -->
+													<img src="images/product-images/produto_01.jpg" alt="image" title="image" class="img-thumbnail img-responsive" />
 												</a>
 											</td>
 											<td class="text-left">
 												<a href="product-full.html">
-													Seeds
+													100% PURE WHEY (2000G) PROBIÓTICA
 												</a>
 											</td>
 											<td class="text-right">x 1</td>
-											<td class="text-right">$120.68</td>
+											<td class="text-right">R$ 250,00</td>
 											<td class="text-center">
 												<a href="#">
 													<i class="fa fa-times"></i>
@@ -141,16 +119,16 @@
 										<tr>
 											<td class="text-center">
 												<a href="product.html">
-													<img src="images/product-images/hcart-thumb2.jpg" alt="image" title="image" class="img-thumbnail img-responsive" />
+													<img src="images/product-images/produto_02.jpg" alt="image" title="image" class="img-thumbnail img-responsive" />
 												</a>
 											</td>
 											<td class="text-left">
 												<a href="product-full.html">
-													Organic
+													PROTEIN COMPLEX PREMIUM (900G) NEW MILLEN
 												</a>
 											</td>
 											<td class="text-right">x 2</td>
-											<td class="text-right">$240.00</td>
+											<td class="text-right">R$ 75,00</td>
 											<td class="text-center">
 												<a href="#">
 													<i class="fa fa-times"></i>
@@ -163,29 +141,29 @@
 									<table class="table table-bordered total">
 										<tbody>
 											<tr>
-												<td class="text-right"><strong>Sub-Total</strong></td>
-												<td class="text-left">$1,101.00</td>
+												<td class="text-right"><strong>Subtotal</strong></td>
+												<td class="text-left">R$ 400.00</td>
 											</tr>
 											<tr>
-												<td class="text-right"><strong>Eco Tax (-2.00)</strong></td>
-												<td class="text-left">$4.00</td>
+												<td class="text-right"><strong>Frete (50,00)</strong></td>
+												<td class="text-left">R$ 50.00</td>
 											</tr>
 											<tr>
-												<td class="text-right"><strong>VAT (17.5%)</strong></td>
-												<td class="text-left">$192.68</td>
+												<td class="text-right"><strong>Desconto (%)</strong></td>
+												<td class="text-left">R$ 0,00</td>
 											</tr>
 											<tr>
 												<td class="text-right"><strong>Total</strong></td>
-												<td class="text-left">$1,297.68</td>
+												<td class="text-left">R$ 450,00</td>
 											</tr>
 										</tbody>
 									</table>
 									<p class="text-right btn-block1">
 										<a href="cart.html">
-											View Cart
+											Meu Carrinho
 										</a>
 										<a href="#">
-											Checkout
+											Pagamentos
 										</a>
 									</p>
 								</li>									
@@ -199,46 +177,9 @@
 		<!-- Nested Container Ends -->
 		</div>
 	<!-- Header Top Ends -->
-	<!-- Main Header Starts -->
-		<div class="main-header">
-		<!-- Nested Container Starts -->
-			<div class="container">
-			<!-- Nested Row Starts -->
-				<div class="row">
-				<!-- Toll Free No Starts -->
-					<div class="col-md-3 col-sm-4 col-xs-12 text-center">
-						<h5>+001 998 980 1234</h5>
-						<h6 class="text-uppercase">5 days a week from 10.00 am to 6pm ist</h6>
-					</div>
-				<!-- Toll Free No Ends -->
-				<!-- Logo Starts -->
-					<div class="col-md-6 col-sm-4 col-xs-12">
-						<div id="logo">
-							<a href="index.html"><img src="images/logo.png" title="Electronics Shoppe" alt="Electronics Shoppe" class="img-responsive img-center"></a>
-						</div>
-					</div>
-				<!-- Logo Ends -->
-				<!-- Search Starts -->
-					<div class="col-md-3 col-sm-4 col-xs-12">
-						<div id="search">
-							<div class="input-group">
-							  <input type="text" class="form-control input-lg text-uppercase" placeholder="Search">
-							  <span class="input-group-btn">
-								<button class="btn btn-lg" type="button">
-									<i class="fa fa-search"></i>
-								</button>
-							  </span>
-							</div>
-						</div>
-					</div>
-				<!-- Search Ends -->
-				</div>
-			<!-- Nested Row Ends -->
-			</div>
-		<!-- Nested Container Ends -->
-		</div>
-	<!-- Main Header Ends -->
+	
 	<!-- Main Menu Starts -->
+	<div class="main-header">
 		<nav id="main-menu" class="navbar" role="navigation">
 		<!-- Nested Container Starts -->
 			<div class="container">
@@ -253,19 +194,20 @@
 			<!-- Navbar Cat collapse Starts -->
 				<div class="collapse navbar-collapse navbar-cat-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="category-list.html">Accessories</a></li>
+						<li><a href="category-list.html">Barras Protéicas</a></li>
 						<li class="dropdown">
 							<a href="category-list.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">
-								Appliances
+								BCAA
 							</a>
 							<ul class="dropdown-menu" role="menu">
-								<li><a tabindex="-1" href="#">Mixer</a></li>
-								<li><a tabindex="-1" href="#">Washing Machine</a></li>
-								<li><a tabindex="-1" href="#">Micro Oven</a></li> 
+								<li><a tabindex="-1" href="#">Hippercalórico</a></li>
+								<li><a tabindex="-1" href="#">Proteína Hidrolisada</a></li>
+								<li><a tabindex="-1" href="#">Queimadores</a></li> 
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a href="category-list.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Audio</a>
+							<a href="category-list.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">
+								Gourmet</a>
 							<div class="dropdown-menu">
 								<div class="dropdown-inner">
 									<ul class="list-unstyled">
@@ -289,13 +231,13 @@
 								</div>
 							</div>
 						</li>
-						<li><a href="category-list.html">Computers</a></li>
-						<li><a href="category-list.html">Laptops</a></li>
-						<li><a href="category-list.html">DSLR Cameras</a></li>
-						<li><a href="category-list.html">Smart Phones</a></li>
+						<li><a href="category-list.html">Gourmet</a></li>
+						<li><a href="category-list.html">Proteína Hidrolisada</a></li>
+						<li><a href="category-list.html">Proteína Isolada</a></li>
+						<li><a href="category-list.html">Queimadores</a></li>
 						<li class="dropdown">
 							<a href="category-list.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">
-								Pages
+								Whey Protein
 							</a>
 							<ul class="dropdown-menu" role="menu">
 								<li><a tabindex="-1" href="index.html">Home</a></li>
@@ -319,6 +261,7 @@
 			</div>
 		<!-- Nested Container Starts -->
 		</nav>
+	</div>
 	<!-- Main Menu Ends -->
 	</header>
 <!-- Header Section Ends -->

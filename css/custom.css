@@ -1,0 +1,26 @@
+#logo-home h1{
+    color: red;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+#logo-home h6{
+    color: lightslategrey;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header-top {
+    padding: 5px;
+}
+.main-header {
+    padding: 5px;
+}
+.menu-principal {
+    padding: 10px;
+}
+.tab {
+    text-indent: 1em;
+}
